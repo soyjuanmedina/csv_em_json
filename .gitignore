@@ -1,0 +1,9 @@
+# Byte-compiled / optimized / DLL files
+csv_em_json/__pycache__/
+csv_em_json/prueba.py
+csv_em_json/test2.py
+replace.txt
+*.pyc
+*.swp
+*.swo
+*.ipynb

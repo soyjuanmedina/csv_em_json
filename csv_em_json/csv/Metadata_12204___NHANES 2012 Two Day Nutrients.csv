@@ -1,0 +1,14 @@
+Field,Variable Name,Variable Long Name,Variable Description,Original Variable Name,Reference URL,Data Table,Keys,Indexes,Units,Min value,Max value,Field data type
+Food Code,Food Code,FNDDS Food Code,FNDDS Food Code,Food Code,http://www.ars.usda.gov/News/docs.htm?docid=12068,MainFoodDesc,,MUL,,11,95342,varchar(128)
+_P,Id,Identifier,System field- identifier,_P,N/A,N/A,,PRI,,1,49517,int(11)
+Food Name,Main Food Description,FNDDS Main Food Description,Food Name derived from FNDDS 5.0,Main Food Description,http://www.ars.usda.gov/News/docs.htm?docid=12068,MainFoodDesc,,,,"100 % Natural Cereal, with oats, honey and raisins, Quaker",Zwieback toast,varchar(128)
+Category Code,N/A,N/A,N/A,N/A,N/A,N/A,,,,N/A,N/A,varchar(128)
+Processing Code,N/A,N/A,N/A,N/A,N/A,N/A,,,,N/A,N/A,varchar(128)
+Group Code,N/A,N/A,N/A,N/A,N/A,N/A,,,,N/A,N/A,varchar(128)
+Brand Code,N/A,N/A,N/A,N/A,N/A,N/A,,,,N/A,N/A,varchar(128)
+Presence Probability,N/A,N/A,N/A,N/A,N/A,N/A,,,,N/A,N/A,text
+Processing Factor,N/A,N/A,N/A,N/A,N/A,N/A,,,,N/A,N/A,text
+Bioav Factor,N/A,N/A,N/A,N/A,N/A,N/A,,,,N/A,N/A,text
+Chemical Code,Nutrient Description,FNDDS Nutrient Description,Nutrient name derived from the FNDDS NutDesc table through mapping to the Nutrient Codes,Nutrient Description,http://www.ars.usda.gov/News/docs.htm?docid=12068,"NutDesc, NutVal",,MUL,,10:,Zinc,varchar(128)
+Concentration,Nutrient val,FNDDS Nutrient Value,"Concentration of the nutrient mapped using the nutrient code from FNDDS 5.0
+(Tables NutDesc, NutVal)",Nutrient val,http://www.ars.usda.gov/News/docs.htm?docid=12068,NutVal,,,g/100g,0,902,text

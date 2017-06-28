@@ -1,0 +1,159 @@
+{
+    "description": "This is the NHANES 2012 dataset.",
+    "information": [
+        {"fields": [
+            {"label": "Year", "value": 2012},
+            {"label": "Collected by", "value": "NHANES"},
+            {"label": "Powered by", "value": "Expert Models"}
+        ]},
+        {"heading": "Other information",
+            "fields": [
+                {"label": "Favourite colour", "value": "Purple"},
+                {"label": "Some Question?", "value": "False"}
+            ]
+        }
+    ],
+    "tables": [
+        {
+            "name": "Subject",
+            "description": "There is one row in this table for each subject who participated in the survey.",
+            "fields": [
+                {
+                    "name": "Subject Code",
+                    "description": "Unique Subject ID",
+                    "required": true,
+                    "note": "This is a note."
+                },
+                {
+                    "name": "Statistical Weighting",
+                    "description": "The subject's statistical weighting in the survey.",
+                    "required": true,
+                    "note": "This is a note."
+                },
+                {
+                    "name": "Body Weight",
+                    "description": "The subject's bodyweight.",
+                    "required": true,
+                    "note": "This is a note."
+                },
+                {
+                    "name": "Height",
+                    "description": "The subject's height.",
+                    "required": false,
+                    "note": "This is a note."
+                },
+                {
+                    "name": "Sex",
+                    "description": "The subject's Sex.",
+                    "required": true,
+                    "note": "This is a note."
+                },
+                {
+                    "name": "Age",
+                    "description": "The subject's age.",
+                    "required": true,
+                    "note": "This is a note."
+                },
+                {
+                    "name": "Day Count",
+                    "description": "The number of days the subject reported consumption in the survey.",
+                    "required": true,
+                    "note": "This is used in the calculation of Daily Average."
+                }
+            ]
+        },
+        {
+            "name": "Food",
+            "description": "There's one row in this table for each food in the survey.",
+            "fields": [
+                {
+                    "name": "Food Code",
+                    "description": "Uniqie code for each food",
+                    "required": true,
+                    "note": "This is a note."
+                },
+                {
+                    "name": "Name",
+                    "description": "The human readable name for the food",
+                    "required": true,
+                    "note": "This is a note."
+                },
+                {
+                    "name": "Group Code",
+                    "description": "The code of the group to which this food belongs.",
+                    "required": true,
+                    "note": "This is a note."
+                },
+                {
+                    "name": "Group Name",
+                    "description": "The human readable name for the group.",
+                    "required": true,
+                    "note": "This is a note."
+                }
+            ]
+        },
+        {
+            "name": "Diary",
+            "description": "There's one row in this table for each consumption event in the survey.",
+            "fields": [
+                {
+                    "name": "Subject Code",
+                    "description": "Unique Subject ID",
+                    "required": true,
+                    "note": "This is a note.",
+                    "foreign_key": {"table": "Subject", "field": "Subject Code"}
+                },
+                {
+                    "name": "Day",
+                    "description": "The Day on which the consumption happened.",
+                    "required": true,
+                    "note": "This is a note."
+                },
+                {
+                    "name": "Food Code",
+                    "description": "Uniqie code for each food",
+                    "required": true,
+                    "note": "This is a note.",
+                    "foreign_key": {"table": "Food", "field": "Food Code"}
+                },
+                {
+                    "name": "Consumption Amount (g)",
+                    "description": "The amount of food consumed",
+                    "required": true,
+                    "note": "This is a note."
+                }
+            ]
+        },
+        {
+            "name": "Nutrient",
+            "description": "There's one row in this table for each nutrient in the survey.",
+            "fields": [
+                {
+                    "name": "Nutrient Code",
+                    "description": "Nutrient ID",
+                    "required": true,
+                    "note": "This is a note."
+                },
+                {
+                    "name": "Food Code",
+                    "description": "Uniqie code for each food",
+                    "required": true,
+                    "note": "This is a note.",
+                    "foreign_key": {"table": "Food", "field": "Food Code"}
+                },
+                {
+                    "name": "Presence Probability",
+                    "description": "Liklihood of occurance",
+                    "required": true,
+                    "note": "This is a note."
+                },
+                {
+                    "name": "Concentration (g/100g)",
+                    "description": "The concentration of this nutrient in this food.",
+                    "required": true,
+                    "note": "This is a note."
+                }
+            ]
+        }
+    ]
+}

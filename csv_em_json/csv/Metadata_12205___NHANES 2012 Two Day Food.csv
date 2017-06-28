@@ -1,0 +1,13 @@
+Field,Variable Name,Variable Long Name,Variable Description,Original Variable Name,Reference URL,Data Table,Keys,Indexes,Units,Min value,Max value,Field data type
+_P,Id,Identifier,System variable identifier,System variable identifier,N/A,N/A,Primary Key,PRI,,1,7618,int(11)
+Category Code,N/A,N/A,N/A,N/A,N/A,N/A,,,,,,varchar(128)
+Category Name,N/A,N/A,N/A,N/A,N/A,N/A,,,,,,varchar(128)
+Brand Code,N/A,N/A,N/A,N/A,N/A,N/A,,,,,,varchar(128)
+Ingredient Fraction,N/A,N/A,N/A,N/A,N/A,N/A,,,,,,text
+Edible Fraction,N/A,N/A,N/A,N/A,N/A,N/A,,,,,,text
+Unit Weight,N/A,N/A,N/A,N/A,N/A,N/A,,,,,,text
+Original Group Code,N/A,N/A,N/A,N/A,N/A,N/A,,,,,,varchar(128)
+Food Name,Food description,Food description,A complete description for a food/beverage,Main Food Description,http://www.ars.usda.gov/News/docs.htm?docid=12068,Fndds_2011-2012_sas.exe,,,,"100 % Natural Cereal, with oats, honey and raisins, Quaker",Zwieback toast,varchar(128)
+Group Name,Food Group Name,Food Group Name,FNDDS Food Group Name,Food Group Name,http://www.ars.usda.gov/SP2UserFiles/Place/80400530/pdf/fndds/fndds5_doc.pdf,Appendix B. Food Coding Scheme,,MUL,,"Bacon, salt pork",Yogurt,varchar(128)
+Group Code,Food Group,Food group,FNDDS Food Group Code,Food Group,http://www.ars.usda.gov/SP2UserFiles/Place/80400530/pdf/fndds/fndds5_doc.pdf,Appendix B. Food Coding Scheme,,MUL,,11,9534,varchar(128)
+Food Code,DR1IFDCD,USDA food code,A unique 8-digit number assigned to a particular main food description.,DR1IFDCD,http://www.ars.usda.gov/News/docs.htm?docid=12068,Fndds_2011-2012_sas.exe,,MUL,,11000000,95342000,varchar(128)

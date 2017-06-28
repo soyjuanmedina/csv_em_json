@@ -1,0 +1,59 @@
+Survey Abbreviation,Creme Food ref,Table Name,Table Long Name,User,Date Uploaded,Tags,Date Last Modified,Introduction,Description,Table Modifications,Comment,Owner,Owner URL,Date First Published,Terms of Use,Source Link (URL),Additional Link (URL),Public,Rating,User Rating,Fields,Number of Rows,Number of Columns,Table Size (Bytes)
+NHANES 2000,12188___NHANES 2012 Two Day Subjects,NHANES 2012 Two Day Subjects,National Health and Nutrition Examination Survey 2011-2012 Demographic Data,Beata Stanek,3/7/2016,"NHANES, Subjects, Respondents, USA, Food Survey",3/7/2016,"The demographics file provides individual, family, and household level information","The demographics file provides individual, family, and household level information on the following topics
+(many of them included in the Creme Food data model, others available per request)
+Survey participant's household interview and examination status
+Interview and examination sample weights
+Masked variance units
+Language of questionnaires used for the interviews conducted in the household and in the mobile examination center
+Use of proxy or interpreter during the interviews
+The six-month time period when the examination was performed
+Pregnancy status
+Household and family income
+Household and family sizes
+Household composition
+Demographic information about the household reference person
+Other selected demographic information, such as gender, age, race/Hispanic origin, education, marital status, military service status, country of birth, citizenship, and years of U.S. residence",N/A,,Centers for Diesease Control and Prevention,http://www.cdc.gov/,9/1/2014,Free to use,https://wwwn.cdc.gov/Nchs/Nhanes/2011-2012/DEMO_G.htm,http://wwwn.cdc.gov/Nchs/Nhanes/Search/DataPage.aspx?Component=Demographics&CycleBeginYear=2011,Yes,5 star,,"_P, Subject Code, Weighting, Day Count, Bodyweight, Height, Gender, Age, Interview/exam Status, Age In Months At Screening, Race/hispanic Origin, Race/hispanic Origin W/ Nh Asian, Age In Months At Exam - 0 To 19 Years, Education Level - Children/youth 6-19, Education Level - Adults, Marital Status, Pregnancy Status At Exam, Full Sample 2 Year Interview Weight, Full Sample 2 Year Mec Exam Weight, Masked Variance Pseudo-psu, Masked Variance Pseudo-stratum, Annual Household Income, Annual Family Income, Ratio Of Family Income To Poverty, Breastfed infant",7605,25,2248920
+NHANES 2000,12204___NHANES 2012 Two Day Nutrients,NHANES 2012 Two Day Nutrients,Food and Nutrient Database for Dietary Studies FNDDSNutVal,Beata Stanek,3/7/2016,"NHANES, Subjects, Respondents, USA, Food Survey, FNDDS, Nutrients",3/7/2016,"Nutrient Values Tabble derived from FNDDS. 
+FNDDS is a database that provides the nutrient values for foods and beverages reported in What We Eat in America, the dietary intake component of the National Health and Nutrition Examination Survey","In dietary studies, the researcher collects information on what people eat. Collection methods
+may vary, from 24-hour recalls collected in What We Eat in America (WWEIA), the dietary
+intake interview component of the National Health and Nutrition Examination Survey (NHANES)
+(National Center for Health Statistics, CDC), to food diaries recorded by an individual. After data
+collection, the researcher needs a way to translate the food intake data into a form that can be
+used for analysis. The USDA Food and Nutrient Database for Dietary Studies (FNDDS) is the
+underlying database used to code dietary intakes and to calculate nutrients for WWEIA,
+NHANES. The FNDDS is based on nutrient values in the USDA National Nutrient Database for
+Standard Reference (Nutrient Data Laboratory, Agricultural Research Service, USDA). The
+FNDDS can also be used with dietary intake data collected in your own study.",FNDDS table - extracting the necessary concentration values for selected nutrients,,United States Department of Agriculture,http://www.ars.usda.gov/,2014,Free to use,http://www.ars.usda.gov/News/docs.htm?docid=12068,N/A,Yes,5 star,,"_P, Category Code, Chemical Code, Processing Code, Group Code, Food Code, Food Name, Brand Code, Presence Probability, Concentration, Processing Factor, Bioav Factor",495170,12,44748184
+NHANES 2000,12205___NHANES 2012 Two Day Food,NHANES 2012 Two Day Food,Food and Nutrient Database for Dietary Studies MainFoodDesc,Beata Stanek,3/7/2016,"NHANES, Subjects, Respondents, USA, Food Survey, FNDDS, Food Groups",3/7/2016,"Food Grouping table derived from FNDDS.
+FNDDS is a database that provides the nutrient values for foods and beverages reported in What We Eat in America, the dietary intake component of the National Health and Nutrition Examination Survey","In dietary studies, the researcher collects information on what people eat. Collection methods
+may vary, from 24-hour recalls collected in What We Eat in America (WWEIA), the dietary
+intake interview component of the National Health and Nutrition Examination Survey (NHANES)
+(National Center for Health Statistics, CDC), to food diaries recorded by an individual. After data
+collection, the researcher needs a way to translate the food intake data into a form that can be
+used for analysis. The USDA Food and Nutrient Database for Dietary Studies (FNDDS) is the
+underlying database used to code dietary intakes and to calculate nutrients for WWEIA,
+NHANES. The FNDDS is based on nutrient values in the USDA National Nutrient Database for
+Standard Reference (Nutrient Data Laboratory, Agricultural Research Service, USDA). The
+FNDDS can also be used with dietary intake data collected in your own study.",FNDDS food grouping system,,United States Department of Agriculture,http://www.ars.usda.gov/,2014,Free to use,http://www.ars.usda.gov/News/docs.htm?docid=12068,N/A,Yes,5 star,,"_P, Category Code, Category Name, Group Code, Group Name, Food Code, Food Name, Brand Code, Ingredient Fraction, Edible Fraction, Unit Weight, Original Group Code",7618,12,825140
+NHANES 2000,12187___NHANES 2012 Two Day Diary,NHANES 2012 Two Day Diary,National Health and Nutrition Examination Survey 2011-2012 Dietary Data ,Beata Stanek,3/7/2016,"NHANES, Subjects, Respondents, USA, Food Survey, Food Diary, 24 hour recall",3/7/2016,Dietary interview component provides detailed dietary intake information from NHANES participants,"
+The objective of the dietary interview component is to obtain detailed dietary intake information from NHANES participants. 
+The dietary intake data are used to estimate the types and amounts of foods and beverages (including all types of water)
+consumed during the 24-hour period prior to the interview (midnight to midnight), and to estimate intakes of energy, 
+nutrients, and other food components from those foods and beverages. 
+Following the dietary recall, participants are asked questions on salt use, 
+whether the person's overall intake on the previous day was much more than usual, usual or much less than usual,
+ and whether the respondent is on any type of special diet.
+Questions on frequency of fish and shellfish consumed during the past 30 days were asked of survey participants 1 year or older, with the use of proxies for young children.
+The dietary interview component, called What We Eat in America (WWEIA), is conducted as a partnership between the U.S.
+Department of Agriculture (USDA) and the U.S. Department of Health and Human Services (DHHS).
+Under this partnership, DHHS' National Center for Health Statistics (NCHS) is responsible for the survey sample design and all aspects of data collection 
+and USDA's Food Surveys Research Group (FSRG) is responsible for the dietary data collection methodology,
+maintenance of the databases used to code and process the data, and data review and processing.
+All NHANES participant are eligible for two 24-hour dietary recall interviews. 
+The first dietary recall interview is collected in-person in the Mobile Examination Center (MEC) and the second interview is collected by telephone 3 to 10 days later.
+As in previous years, two types of dietary intake data are available for the 2011-2012 survey cycle: Individual Foods files and Total Nutrient Intakes files.
+","NHANES Two Day Consumption is set up to meet Creme Food model needs.
+From the DR1IFF take all the consumption events where  DRDINT=2 and merge with the consumption events from DR2IFF where DRDINT=2
+Day=1 where DR1IFF.DRDINT=2
+Day=2 where DR2IFF.DRDINT=2
+",,Centers for Diesease Control and Prevention,http://www.cdc.gov/,9/1/2014,Free to use,https://wwwn.cdc.gov/Nchs/Nhanes/2011-2012/DR2IFF_G.htm,http://wwwn.cdc.gov/Nchs/Nhanes/Search/DataPage.aspx?Component=Dietary&CycleBeginYear=2011,Yes,5 star,,"_P, Subject Code, Day, Daily Frequency, Survey Frequency, Time, Food Code, Brand Code, Amount, Meal, Name Of Eating Occasion, Intake Day Of The Week, Source Of Food, Breasfed Infant",225757,14,21803876
